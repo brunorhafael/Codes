@@ -1,0 +1,144 @@
+﻿#masterColumnLayout { width: 960px; }
+#masterColumnLeft, #masterColumnSpacer { display: none; }
+#masterColumnRight { width: 960px; padding: 0; }
+
+#homeColumnLayout { width: 960px; }
+#homeColumnLayout td { vertical-align: top; }
+#homeColumnLeft { width: 730px; padding: 0; }
+#homeColumnSpacer { width: 5px; }
+#homeColumnRight { width: 225px; background: #bde7a8; }
+
+/* Splash layout */
+
+div#splashPhoto { 
+	margin: 0 !important; 
+	padding: 0 !important; 
+	width: 730px; 
+	height: 225px; 
+	cursor: hand;
+	background: #fff url(/SiteCollectionImages/designlayout/SplashPhoto.jpg) top left no-repeat; 
+}
+
+div#splashText { width: 280px; margin: 20px 30px; float: right; color: #626262; }
+#splashText h2 { font-size: 1.5em; line-height: 115%; color: #3a589e; }
+#splashText p { margin: 10px 0; line-height: 145%; }
+#splashText a { color: #626262; }
+
+
+/* target audience */
+#audienceLayout { width: 730px; margin-top: 4px; }
+#audienceLayout th { background: #1d8ed0 url(/SiteCollectionImages/designlayout/header_background.gif) center right no-repeat;  }
+td#audienceLeft, td#audienceCenter, td#audienceRight { background: #cce3fb; width: 220px; padding: 10px; }
+#audienceLayout td.spacer { width: 5px; background: #fff; }
+#audienceLayout h2 { 
+    margin: 0; 
+    padding: 5px; 
+    text-align: left; 
+    font-size: 1.2em; 
+    color: #fff; 
+}
+.audienceLink { text-align: right; background: #cce3fb; padding: 5px; }
+
+
+/* web zones and web parts */
+
+.ms-WPHeader td { padding-bottom: 5px; background: url(/SiteCollectionImages/DesignLayout/dottedrule_horiz.gif) bottom left repeat-x !important; border-bottom-style: none !important; }
+
+#zoneColumnLayout { width: 730px; margin-top: 10px; }
+#zoneColumnLeft { width: 480px; }
+#zoneColumnSpacer { width: 10px; }
+#zoneColumnRight { width: 220px; padding: 10px; background: url(/SiteCollectionImages/designlayout/dottedRule_vertical.gif) top left repeat-y; }
+#zoneColumnRight .bullet { background: url(/SiteCollectionImages/DesignLayout/arrow_green.gif) top left no-repeat; }
+#zoneColumnLayout a { font-weight: bold; }
+#zoneColumnLayout .ms-WPHeader h3 { color: #5fc12f; font-size: 1.3em; }
+
+#homeColumnRight h2 { color: #1d8ed0; font-size: 1.2em; }
+#homeColumnRight .ms-WPHeader h3 { margin-left: 5px; margin-top: 5px; color: #1d8ed0; font-size: 1.2em; }
+#homeColumnRight .ms-WPBody { width: 200px; margin: 0 auto;}
+
+
+
+/* Welcome */
+#topSidebarZone { 
+	margin: 0; 
+	padding: 0; 
+	border: 1px solid #fff; /* Hack: this appears to fix a display error */
+	border-top-color: #bde7a8;
+	border-bottom-width: 5px; }
+
+#memberLogin { 
+	margin: 0; 
+	padding: 0 10px; 
+	color: #fff; 
+	background: #5fc12f; 
+	border: 1px solid #FFF; /* Hack: this appears to fix a display error */
+	border-top-color: #5fc12f; 
+	border-bottom-width: 5px;  
+}
+#memberLogin h2 { margin-top: 5px; color: #fff; }
+
+
+
+/* Carousel */
+#carousel, .carouselItem {
+	position:relative;
+	width: 730px;
+	height: 284px;
+	overflow: hidden;
+	color:#fff;
+	font-family:Verdana, Arial;
+	z-index:0;
+}
+.carouselOverlay {
+	position:absolute;
+	bottom:0;
+	height:48px;/*73*/
+	background:url('Images/bg-opaque-black-82.png') repeat;
+	right: 0;
+	left: 0;
+	padding: 6px 90px;
+	text-align: center;
+	border-top:1px solid #fff;
+}
+.carouselOverlay * {
+	line-height:24px;
+}
+#carousel h2 {
+	color:#fff;
+	margin:0;
+	font-weight:normal;
+	font-size:18pt;
+}
+#carousel h3 {
+	color:#fff;
+	margin:0;
+	font-weight:normal;
+	font-size:12pt;
+}
+#carousel a {
+	color:#fff;
+	text-decoration:underline;
+
+}
+#carouselPrev {
+	position:absolute;
+	left:20px;
+	bottom:11px;
+	width:40px;
+	height:37px;
+	background:url('Images/carouselPrev.png') no-repeat;
+	text-indent:9999px;
+	display:block;
+	z-index:999;
+}
+#carouselNext {
+	position:absolute;
+	right:20px;
+	bottom:11px;	
+	width:40px;
+	height:37px;
+	display:block;
+	z-index:999;
+	background:url('Images/carouselNext.png') no-repeat;
+	text-indent:9999px;
+}

@@ -1,0 +1,9 @@
+Last Name, First Name            Term      ID      Course   Section 
+-------------------------------- ----  ---------   ------   ------- 
+Als, Christian                   1301  106034459   CSE230     R01  
+Annitto Grassis, Susan           1301  106034479   CSE230     R04 
+Boatswain, Michael R.            1301  105515018   CSE230     R01 
+Bonczek, Claude                  1301  104727546   CSE230     R01 
+Castille, Michael Jr             1301  103993269   CSE230     R03 
+Cruz, Akeem Mike                 1301  104731479   CSE230     R01
+Digiacomo, Stephen               1301  105415888   CSE230     R02

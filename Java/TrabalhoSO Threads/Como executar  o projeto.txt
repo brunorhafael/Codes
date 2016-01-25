@@ -1,0 +1,10 @@
+Como Executar
+
+1: Defina os valores das matrizes A e B nos arquivos Matriz_A.txt e Matriz_B.txt 
+que esta dentro da pasta do projeto, lembrando que as matrizes são 4x4.
+
+2: Abra o projeto no NetBeans IDE e Execute.
+
+3: Va até o a pasta do projeto (TrabalhoSO) e veja o resultado da multiplicação das matrizes no arquivo ResulMatriz.txt.
+
+OBS: No arquivo ResulMatriz.txt, esta impresso o valor que cada thread multiplicou, ou seja, esta mostrando a thread e o resultado. 

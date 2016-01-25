@@ -1,0 +1,8 @@
+1301,105515018,"Boatswain","Michael R.",CSE, 230,="R01"
+1301,103993269,"Castille","Michael Jr",CSE, 230,="R03"  
+1301,103993267,"Castille","Janice",CSE, 230,="R03" 
+1301,104727546,"Bonczek","Claude",CSE, 230,="R01" 
+1301,104731479,"Cruz","Akeem Mike",CSE, 230,="R01" 
+1301,105415888,"Digiacomo","Stephen",CSE, 230,="R02" 
+1301,106034479,"Annitto Grassis","Susan",CSE, 230,="R04"  
+1301,106034459,"Als","Christian",CSE, 230,="R01" 

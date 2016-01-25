@@ -1,0 +1,184 @@
+﻿
+body { margin: 0; color: #000; background: #cecfd6 url(/SiteCollectionImages/DesignLayout/gradient.jpg) top left repeat-x; font: .75em/140% Verdana, Arial, Helvetica, sans-serif; }
+
+a { color: #1d8ed0; }
+
+.clearFloats { clear: both; }
+
+/* MASTER DESIGN LAYOUT =========================================================== */
+
+#masterPageLayout { width: 986px; margin: 0 auto; }
+
+/* header */
+#header { width: 970px; margin: 10px auto 0 auto;  }
+#siteLinks { text-align: right;}
+#siteLinks a { text-decoration: none; color: #626262; }
+#siteLinks a:hover { text-decoration: none; }
+
+#bannerLayout { width: 970px;  }
+#bannerLayout td { vertical-align: bottom; }
+td#bannerLogo { width: 285px; padding-bottom: 10px; }
+td#bannerSearch { width: 685px; padding: 0; height: 42px; text-align: right; }
+#SRSB {  text-align: right;  margin: 0; padding: 0; }
+#SRSB div { text-align: right; margin: 0; padding: 0; }
+td#bannerSearchLink { padding: 0; text-align: right; }
+#bannerSearchLink a { color: #626262; font-size: .9em; }
+#bannerNav { height: 42px; text-align: right; }
+
+/* primary navigation */
+.globalNav { margin: 0; padding: 0; width: auto; }
+
+table.globalNavItem { 
+	width: auto; 
+	margin: 0 0 0 1px !important; 
+	background: #2c4a93 url(/SiteCollectionImages/DesignLayout/tab_gradient_right.jpg) top right no-repeat;
+}
+
+.globalNavItem td { 
+	padding: 5px 10px; 
+    font: bold 12px Arial, Helvetica, sans-serif; 
+    color: #fff;
+ 	background: url(/SiteCollectionImages/DesignLayout/tab_gradient_left.jpg) top left no-repeat;
+}
+.globalNavItem td a { color: #fff; text-decoration: none; }
+.globalNavItem td a:hover { color: #bce6a8; }
+.globalNavItemHover { }
+.globalNavItemActive { }
+
+.globalNavMenu{ }
+.globalNavMenuItem { background: #cce3fb; padding: 3px 5px; text-align: left; border-bottom: 1px solid #fff;  }
+.globalNavMenuItem a:hover { text-decoration: underline; }
+.globalNavMenuItemActive { }
+
+/* secondary navigation */
+.currentNav { }
+.currentNavHeaderMenu { }
+.currentNavHeader { font-size: 1.1em; font-weight: bold; margin: 4px 0; }
+.currentNavHeaderActive { }
+.currentNavItemMenu { }
+.currentNavItem { }
+.currentNavItemActive { }
+
+.currentNavItem1 { font-size: 1em; line-height: 120%; font-weight: normal; }
+.currentNavItem1 a {  display: block; margin: 4px 10px; }
+.currentNavItem1 a:hover { text-decoration: underline; }
+
+/* content layout */
+#contentBorder { margin: 0; border: 1px solid #dfdfe2; padding: 1px; background: #dbdadd; }
+#content { margin: 0; padding: 10px; background: #fff; border: 1px solid #d4d3d6; }
+
+#masterColumnLayout { width: 960px; }
+#masterColumnLeft { width: 200px; padding: 10px; background: #cce3fb; }
+#masterColumnSpacer { width: 10px; }
+#masterColumnRight { width: 730px; }
+
+#contentColumnLayout { width: 730px; margin:0; }
+#contentColumnLeft { width: 560px; padding-right: 10px; }
+#contentColumnRight { width: 140px; background: #dcf1d2; padding: 10px; }
+
+#footerLayout { margin: 10px; font-size: .9em; text-align: center; }
+#footerLayout a { color: #626262; }
+
+
+
+/* CONTENT DISPLAYS ================================================================= */
+
+/* main content area */
+#breadcrumb { margin-bottom: 10px; font-size: .8em; line-height: 100%; }
+#breadcrumb a { color: #626262; }
+.breadcrumbItem { }
+.breadcrumbItemActive { }
+
+h1, h2, h3, h4 { margin-bottom: 10px; line-height: 130%; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+
+h1 { font-size: 1.6em; color: #1d8ed0; margin-top: 10px; margin-bottom: 10px; text-indent: -5px; }
+h2 { font-size: 1.4em; color: #5fc12f; }
+h3 { font-size: 1.2em; color: #666; }
+h4, h5, h6 { font-size: 1.1em; color: #000; }
+
+p { margin: 10px 0; }
+ul { margin-top: 10px; }
+li { margin-bottom: 4px; }
+
+#pageContent { margin: 15px 0; }
+#articleSubtitle { font-weight: bold; font-size: 1.2em; }
+#articleDate { font-style: italic; }
+
+
+/* edit mode panel */
+.authorPanel fieldset { border-color: #ccc; padding: 10px; margin-top: 5px; }
+.authorPanel legend { font-weight: bold; color: #666; }
+
+/* web parts */
+
+.ms-WPHeader h3 { font-size: 1.2em; color: #fff; padding: 2px 5px;  }
+.ms-WPHeader td { background: #5fc12f; }
+#sidebarZone .ms-WPHeader h3 { font-size: 1.1em; color: #5fc12f; padding: 0;  }
+#sidebarZone .ms-WPHeader td { padding-bottom: 2px; background: transparent; border-bottom: 1px solid #5fc12f; }
+
+.ms-WPBody { margin-bottom: 15px; }
+
+.ms-partline { background: #626262; }
+.ms-WPBody .bullet { background: url(/SiteCollectionImages/DesignLayout/arrow_navy.gif) top left no-repeat; }
+
+#zoneColumnLayout { width: 100%; }
+#zoneColumnLeft { width: 48%; }
+#zoneColumnSpacer { width: 2%; }
+#zoneColumnRight { width: 48%; }
+
+/* lists */
+.ms-menutoolbar, table.ms-toolbar, .ms-toolbarContainer { background: #dddddd; }
+.ms-separator img { background: #cccccc; }
+.ms-viewheadertr { background: #f3f3f3; font-size: .8em; }
+
+/* forms */
+.ms-formlabel { border-top: 1px #cccccc dotted; }
+.ms-formbody { background: #f3f3f3; border-top: 1px #cccccc dotted; }
+.ms-formline { border-top: 1px #cccccc dotted; }
+
+/* calendar */
+.ms-cal-gempty { font-size: .8em; }
+.ms-datepickerouter { font-size: .8em; }
+
+/* discussions */
+.ms-disc-bar { background: #f3f3f3; }
+.ms-disc-bordered-noleft { border-color: #cccccc; }
+
+/* blogs */
+.ms-PostDate { font-size: 1em; font-weight: normal; border-bottom: 1px #cccccc dotted; }
+.ms-PostTitle { font-size: 1.3em; border-bottom: 1px #cccccc solid; }
+.ms-blogedit { }
+.ms-PostBody { }
+.ms-PostFooter { }
+.ms-CommentHeader { border-bottom: 1px #cccccc dotted; }
+.ms-CommentTitle { }
+.ms-CommentBody { }
+
+/* wiki */
+.ms-wikieditouter { background: #f3f3f3; }
+a.ms-wikilink { text-decoration: none; }
+a.ms-missinglink { border-bottom: 1px #cccccc dashed; }
+
+/* bullets */
+.bullet, .level-bullet { }
+
+/* search results */
+.srch-Icon { }
+.srch-Title { }
+.srch-Description { }
+.srch-Metadata { color: #888888; border-top: 1px #cccccc solid; }
+.srch-URL a { color: #008800; }
+
+
+/* INTERIOR PAGE LAYOUTS ============================================================== */
+
+/* landing pages */
+
+#sectionBanner { margin-bottom: 5px; width: 730px; overflow: hidden; }
+#subSectionBanner { margin-bottom: 5px; width: 560px; overflow: hidden; }
+
+/* contact us */
+.formTable { width: 100%; }
+.formTable th { border-top: 1px #cccccc dotted; vertical-align: top; text-align: left; width: 200px; }
+.formTable td { vertical-align: top; background: #f3f3f3; border-top: 1px #cccccc dotted; padding: 2px; }
+.formText { font-size: 85%; color: #808080; }

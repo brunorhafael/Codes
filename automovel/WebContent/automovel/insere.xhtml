@@ -1,0 +1,39 @@
+<ui:composition template="/WEB-INF/templates/geral.xhtml"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+	 	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<ui:define name="conteudo">
+		<h1>Insere automóvel</h1>
+		<h:form>
+		<h:messages />
+		<h:panelGrid columns="2">
+			<h:outputLabel for="descricao" value="Descrição" />
+			<h:inputText id="descricao" label="Descrição" required="true" 
+				value="#{automovelBean.automovel.descricao}" />
+		
+			<h:outputLabel for="marca" value="Marca" />
+			<h:selectOneMenu id="marca" label="Marca" required="true" 
+				value="#{automovelBean.marcaSelecionada}">
+				<f:selectItem itemLabel="Selecione" />
+				<f:selectItems value="#{automovelBean.marcas}" var="marca" 
+					itemValue="#{marca}" itemLabel="#{marca.nome}" />
+			</h:selectOneMenu>
+		
+			<h:outputLabel for="acessorios" value="Acessórios" />
+			<h:selectManyMenu id="acessorios" label="Acessórios" required="true" 
+				value="#{automovelBean.acessoriosSelecionados}">
+				<f:selectItem itemLabel="Selecione" />
+				<f:selectItems value="#{automovelBean.acessorios}" var="acessorio" 
+					itemValue="#{acessorio}" itemLabel="#{acessorio.nome}" />
+			</h:selectManyMenu>
+		
+			<h:commandButton id="salvar" class="btn btn-primary" 
+				value="Salvar" action="#{automovelBean.insere}" />
+		</h:panelGrid>
+		
+		</h:form>
+	</ui:define>
+
+</ui:composition>

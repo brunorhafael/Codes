@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/geral.xhtml">
+	<ui:define name="corpo">
+	    
+	    <h:form>
+
+<h:panelGrid columns="2" >
+
+
+
+
+		<h:outputLabel for="codigo" value="Codigo:" ></h:outputLabel>
+		<h:inputText id="codigo" label="Codigo:" value="#{atividadeBean.atividade.codigo}" required="true" requiredMessage="É obrigatorio o preenchimento" />
+		
+		<h:outputLabel for="descricao" value="Descricao:" ></h:outputLabel>
+		<h:inputText id="descricao" label="Descricao:" value="#{atividadeBean.atividade.descricao}" required="true" requiredMessage="É obrigatorio o preenchimento" />
+		
+		<h:outputLabel for="ministrante" value="Ministrante:" ></h:outputLabel>
+		<h:inputText id="ministrante" label="Ministrante:" value="#{atividadeBean.atividade.ministrante}" required="true" requiredMessage="É obrigatorio o preenchimento" />
+		
+		<h:outputLabel for="quant" value="Quanntidade de Participante:" ></h:outputLabel>
+		<h:inputText id="quant" label="Quanntidade de Participante:" value="#{atividadeBean.atividade.quantParticipante}" required="true" requiredMessage="É obrigatorio o preenchimento" />
+		
+		<h:outputLabel for="valor" value="Valor:" ></h:outputLabel>
+		<h:inputText id="valor" label="Valor:" value="#{atividadeBean.atividade.valor}" required="true" requiredMessage="É obrigatorio o preenchimento" />
+		
+		
+		
+		
+		
+		<h:commandButton value="Cadastrar" action="#{atividadeBean.inserirAtividade}" required="true" />
+
+
+
+</h:panelGrid>
+</h:form>
+
+
+
+<h:messages />
+	</ui:define>
+	
+</ui:composition>
+</html>

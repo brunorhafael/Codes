@@ -1,0 +1,98 @@
+div.navbar
+{
+	font-size:24px;
+	white-space: nowrap;
+	padding: 3px;
+	width: 100px;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: normal;
+	background-position: right top;
+}
+
+div.navbar   a:link
+{	
+	text-decoration: none;
+	color:white;
+}
+
+div.navbar   a:hover
+{
+	
+	color: grey;
+	padding: 3px;
+	text-decoration: none;
+}
+
+.table
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+a.button
+{	
+	font-size: 22px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px;
+	border-width: 3px; 
+	border-style: groove;
+}
+a.button:active
+{	border: thin; }
+
+body
+{
+	margin-left:50px; 
+	width:1630px;
+	height:636px;
+	  outline: 0;
+  vertical-align: baseline;
+  background: transparent;	
+}
+
+#banner
+{
+	border-radius:100px;
+	margin-left:300px;
+}
+
+.h4
+{
+	text-align: center;
+	color: #2f5a2b;
+}
+
+.p1
+{
+	text-align: center;
+	color: #2f5a2b;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.td1
+{
+	border-radius: 26px;
+}
+
+#img2{
+	margin-top:inherit;
+	padding-top:0px;
+	
+	}
+	
+.h1
+{
+  text-align:center;	
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 0px;	
+  color:#2f5a2b;
+}

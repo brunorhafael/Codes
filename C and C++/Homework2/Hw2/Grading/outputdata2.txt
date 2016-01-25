@@ -1,0 +1,12 @@
+Last Name,        First Name     Term        ID          Course   Section
+-----------------------------    ----     ---------      ------   -------
+Andrew            Seyyit         1301     103993269      CSE230     R03
+Damir             Chike          1301     106034459      CSE230     R01
+Dion              Carol          1301     105515018      CSE230     R01
+Dunstan           Kevin          1301     104727546      CSE230     R01
+Ffransis          Abner          1301     106034479      CSE230     R04
+Gabir             Lucas          1301     105415888      CSE230     R02
+Isidore           Stanislav      1301     106034480      CSE230     R03
+Karpos            Symeon         1301     104731479      CSE230     R01
+Kgosi             Justus         1301     106034498      CSE230     R05
+Wilford           Roberts        1301     103993267      CSE230     R03

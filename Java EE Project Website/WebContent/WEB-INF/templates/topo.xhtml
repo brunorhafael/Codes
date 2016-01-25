@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition >
+
+			<div class="navbar navbar-inverse navbar-fixed-top">
+					<div class="navbar-inner">
+						<div class="container">
+							<button type="button" class="btn btn-navbar" data-toggle="collapse"
+								data-target=".nav-collapse">
+								<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<h:link class="brand" value="Pessoas" outcome="/index" />
+							<div class="nav-collapse collapse">
+								<ul class="nav">
+									<li class="active"><h:link value="Home" outcome="/index" /></li>
+									<li><h:link value="Cadastrar Participante" outcome="/cadastrarParticipante" /></li>
+									<li><h:link value="Cadastrar Atividade" outcome="/cadastrarAtividade" /> </li>
+									<li><h:link value="Listar Atividade" outcome="/listarAtividade" /></li>
+									<li><h:link value="Listar Participante" outcome="/listarParticipante" /></li>
+								</ul>
+								<h:form>
+								<h:commandButton  value="Logout  " action="#{loginBean.logout}" />
+								</h:form>
+							</div>
+							<!--/.nav-collapse -->
+						</div>
+					</div>
+				</div>
+	
+	
+
+	
+</ui:composition>
+</html>
