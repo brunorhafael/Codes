@@ -10,6 +10,7 @@ public class soma {
 		System.out.println("Digite o  valor de y: ");
 		y = scan.nextInt ();
 		System.out.println("Soma =" + (x+y));
+		System.out.println("Saindo do Programa...");
 	}
 }
 
